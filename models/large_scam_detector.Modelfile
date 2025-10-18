@@ -1,0 +1,126 @@
+FROM llama3.2:3b
+
+SYSTEM """You are a cybersecurity expert that detects fraudulent job postings. Analyze each job posting and classify it as 'Real' or 'Fake'. Provide brief reasoning."""
+
+PARAMETER temperature 0.1
+
+message user "Job: Interaction Designer. Company: Unify — formerly known as Siemens Enterprise Communications — is a premier communications software a. Description: Unify is looking for talented Interaction designers who create complex interactive experiences for applications, software, and web interfaces to shape the future of Project Ansible.By joining our team..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: English Teacher Abroad . Company: We help teachers get safe &amp; secure jobs abroad :). Description: Play with kids, get paid for it Love travel? Jobs in Asia$1,500+ USD monthly ($200 Cost of living)Housing provided (Private/Furnished)Airfare ReimbursedExcellent for student loans/credit cardsGabriel ..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Security Analyst. Company: Leapfrog Services provides managed IT services for businesses and nonprofits worldwide.Founded in 19. Description: The Security Analyst is responsible for the day to day analysis of elevated security events from a variety of different monitoring systems. This position will work cross functionally with other teams ..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Customer Service Team Lead . Company: Novitex Enterprise Solutions, formerly Pitney Bowes Management Services, delivers innovative documen. Description:  The Customer Service Team Leader. The right candidate will be an integral part of the Novitex team, supporting our continued growth. As Customer Service Team Leader, you will be responsible for succe..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Customer Experience Representative. Company: Why CSD?CSD is not only a great place to work, but also to learn, grow and give back to the communit. Description: The Customer Experience Representative is the company’s central touch point supporting multi-channel products and customer service response. This position provides administrative support for the Sales..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Part Time Driver and Handler. Company: Shyp is the easiest way to send anything, anywhere.Here at Shyp, we’re building the #1 brand consume. Description: Shyp is in search of smart, friendly, safety-conscious women and men to operate company vehicles and provide courteous and efficient pick-up of items on a part-time schedule; to check items for confor..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Software Engineer. Company: schooX  is a Social Academy where anyone can teach and learn online. Learners can attend online cour. Description: We're looking for a Software Engineer, for the R&amp;D Department of #URL_bc06f24948f93c4a238bb8ea5dd7650b525797298198848461cdb2e259c21c4b#.You will work with our development team as a software engine..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Front End Developer. Company: Filament Labs is building Patient IO™ — a care plan platform.Patient IO gives outpatient health prof. Description: As a Filament Labs Front End Developer, you'll work with a tight-knit, talented team team developing a cutting edge platform for communication in health care. You'll work with modern technologies like..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Experienced HCC coder,ER coder,E&M coder. Company: . Description: JOB DESCRIPTION:We are in need of HCC, ER, E&amp;M experienced coders. Qualification:      Ø      1 to 2 years of experienced in HCC Coding.Ø      Coders with E&amp;M speciality can also apply.Ø      ..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Customer Service Positions ($18-$22 an hour). Company: LEI Home Enhancements, is an Ohio based company that has been installing windows, siding, doors and . Description: LEI Home Enhancements is hiring for ENTRY LEVEL customer service positions. We have an aggressive expansion plan laid out and are looking to find a person who would love to work in a fun, competitive,..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Human Resources Manager. Company: We Provide Full Time Permanent Positions for many medium to large US companies. We are interested in. Description: (We have more than 1500+ Job openings in our website and some of them are relevant to this job. Feel free to search it in the website and apply directly. Just Click the “Apply Now” and you will redire..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Lead UX Designer. Company: We are a small but ambitious software-as-a-service startup in Atlanta looking for talented individua. Description: CallRail helps data-driven businesses understand which ads, campaigns, and keywords are delivering valuable phone calls. We want to provide business owners with the information they need to make smart..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Demand Generation Marketing Manager . Company: The Boston Consulting Group (#URL_45423e1e16703aa4d8ee444d3ad69bb51525f1dad0b3115713cf80dc496299e2#). Description: The Demand Generation Marketing Manager is responsible for the demand and lead generation campaigns with a focus on crafting and executing online and offline programs, then tracking and reporting on t..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Heathrow/Langley Business Admin Apprenticeship. Company: Established on the principles that full time education is not for everyone Spectrum Learning is made. Description: You must be 16-18 years old to apply for this position as it is an apprenticeship.Perfect role for school leavers.This is a fantastic opportunity for those looking to start their career in Business Ad..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Training Associate. Company: . Description: The Associate provides support for the development and execution of client projects including corporate training programs, consulting engagements, and other related ventures (i.e. internal development..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Loan Administrator - High Growth Specialty Finance Company. Company: Fundation is a technology-empowered direct lender that delivers small balance commercial loans natio. Description: DESCRIPTIONFundation is a a fast growing private equity backed commercial lender dedicated to enhancing the borrowing process for small business owners across the United States.  As a technology-empow..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Hiring for Oracle Financials R12 Tech lead. Company: . Description: Position :   Oracle Financials R12 Tech leadJob Location :Center City Philadelphia, PAWork Authorization required : EAD GC ,Green Card,US Citizens and Open to 1099 candidates Expected duration: Until ..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Head of Department. Company: Leadership talent acquisition. Specializing in teaching and training positions for the Kingdom of Sa. Description: Seeking a department head for a top tier training facility that provides technical training in the Hydro-Electric Utility company industry. This key position is responsible for providing leadership to..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Life Insurance Agent - San Diego, CA. Company: Even though we’ve been industry leaders for years, we’ve never lost sight of our primary goal: to se. Description: Why become an ASUREA agent?People work with us because they make more money in insurance, period. We are the fastest growing independent career agency in the nationWe’ve got an A+ Rating with the BBB ..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Project Manager  Project Office Management . Company: . Description: Project Manager  Project Office Management Perform Contract Management.Use Microsoft Project.Certified-PMI Project Management Professional.Apply Knowledge of Business Controls Requirements.Advise on M..."
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper company details and realistic requirements."
+
+message user "Job: Product Insight Analyst Property and Casualty Insurance   2168. Company: . Description: 2168Job Title: Product Insight Analyst Property and Casualty InsuranceRole: ConsultantRelocation Available: YesIndustry: Insurance and LegalLocation: MassachusettsTown / City: BostonJob Type: Permanen..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Head of machining department. Company: Aker Solutions is a global provider of products, systems and services to the oil and gas industry. O. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and technology bring discoveries into production and maximi..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Accountant. Company: . Description: Company accountant required for small size firm based in East London. You will be working full-time and assisted by a assistant accountant. you should currently be working in the UK or have at least 5..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Front-End Developer. Company: . Description: RideAmigos needs a great Front-End Developer to work with us on our "cloud-based" software as a service offering.  We are a rapidly growing company working on innovation in the transportation space.  ..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Retail Demonstrator. Company: . Description: Dyson demonstrators work part-time as members of the Field Sales team to engage consumers in an energetic and confident manner and provide them with knowledgeable information about Dyson products in s..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Senior Local Government Affairs Representative. Company: . Description: Apply using below link#URL_ea54d715858cb6aef8dcf8a84ec12d3b856157b887f6192a8fa8ca50c1cbff48#At Puget SoundEnergy (PSE) we have a long tradition of service, and anexciting and innovative future ahead!C..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Administrative Position . Company: . Description: International private equity looking for an administrative assistant to be part of a great team! This executive assistant must have experience with heavy calendar management and travel experience. The..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: VAN DRIVER. Company: The Accion  story began more than 100 years ago in the Austin,Tx with one family owned establishment. Description: Transports clients, materials, supplies, and equipment and performs other support functions. Detailed DescriptionOperates a small bus, pick-up truck or other applicable small vehicle to transport clie..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Customer Service Representative. Company: . Description: • Be responsible for accurate and timely handling of all inbound &amp; outbound delinquent phone calls.• Analyzes payment history and notes from the system and clearly communicates status to the custo..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Software Architect . Company: Aptitude Staffing Solutions has redesigned the recruiting wheel. Our innovative new platform cuts th. Description: Software ArchitectSan Jose, CA The Short &amp; Sweet:The software architect is responsible for the all of the software architecture activities for theSPBU (Service Provider Business Unit). S/he will m..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Cruise Staff Wanted *URGENT*. Company: . Description: 6* Ultra Luxury American Cruise Company is urgently looking for the following positions:*Hospitality - For the many Bars &amp; Restaurants on board.*Retail - For the Duty FREE Shops &amp; Boutiques on..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Production Supervisor. Company: Founded in 1993, our group has, in a few short years, earned an excellent reputation for performance. Description: Oversee plant operations.Monitor and troubleshoot operating equipment.Load and unload trucks and containers.Oversee forklift operations.Perform general housekeeping.Ensure plant adheres to safety and ..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: RNFA Registered Nurse First Assistant  . Company: . Description: Apply using below link#URL_bf5807d8a593623148ad42c27ba5e13bc3be41e074f2c1c533d8878be6bb2e7a#RN First Assist- Surgery, Full-time (Hours: Variable with call responsibilities) This position is responsibl..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Technology Consultant - Outside Sales  . Company: . Description: Apply below using link#URL_00962c0bdac3ecf40b2931cbb6493290c8712818f9b055eb964210d5ecab508a#SkyNet Managed Technology Services, a leading IT consulting firmbased in Columbus, Ohio, is seeking a dynami..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Cruise Staff Wanted *URGENT*. Company: . Description: 6* Ultra Luxury American Cruise Company is urgently looking for the following positions:*Hospitality - For the many Bars &amp; Restaurants on board.*Retail - For the Duty FREE Shops &amp; Boutiques on..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Customer Service Representative. Company: Gary Cartwright established Cartwright Property Management in 2007 to help manage the HOAs that were. Description: We are Seeking a candidate whose core values include integrity, compassion and responsibility, and is focused on building quality relationships with our clients. Candidates must  have outstanding orga..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Payroll Clerk. Company: At DynCorp International it is our commitment to conduct business honestly, ethically and in accorda. Description: Payroll Clerk Job Purpose: Responsible for Compiling and posting employee payroll data and manages hours clocked. Creates and distributes paychecks in accordance with hours worked and corrects paychec..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: Subsea Process System Engineer. Company: Aker Solutions is a global provider of products, systems and services to the oil and gas industry. O. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and technology bring discoveries into production and maximi..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: User Experience Designer | Mobile. Company: . Description: We are looking for UX Designer to help us continuously innovate and revamp our products to keep us at the top of the market...."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+
+message user "Job: CASH Pay Jobs (Part Time Staff Wanted). Company: . Description: CASH Pay Jobs (Part Time Staff Wanted)You can do it all from home, in your free time, at your own place.Spend 30 minutes or 1 hours a day &amp; Get biggest cash.You can work in the morning, afternoon,..."
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting such as vague details or suspicious elements."
+

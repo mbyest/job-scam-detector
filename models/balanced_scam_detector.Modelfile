@@ -1,0 +1,306 @@
+FROM llama3.2:3b
+
+SYSTEM """You are a cybersecurity expert that detects fraudulent job postings. Analyze each job posting and classify it as 'Real' or 'Fake'. Provide brief reasoning."""
+
+PARAMETER temperature 0.1
+
+message user "Job: English Teacher Abroad. Company: We help teachers get safe &amp; secure jobs abroad :). Description: Play with kids, get paid for it Love travel? Jobs in Asia$1,500+ USD monthly ($200 Cost of living)Housing provided (Private/Furnished)Airfare Reimburs"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: ICT Technician. Company: VENTURE Credit Union Cooperative Society Limited is a member-owned credit union . Description: JOB OBJECTIVEReporting to the Manager, Information and Communications Technology, the ICT Technician is responsible for maintaining several aspects of"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Environmental Engineer - Knowledge of Environmental law - TX. Company: We Provide Full Time Permanent Positions for many medium to large US companies. . Description: Experienced Environmental Engineer is required having responsibility to develop and implement programs to comply with federal, state and local environ"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Network Engineer. Company: No company profile. Description: Network Engineer• With 2 to 3 years of experience in :- Installing and configuring computer systems - Diagnosing and solving hardware/software faults "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: BI Engineer . Company: Visual BI is one of the leading and fastest growing firms focusing exclusively o. Description: This is a Full-Time Position for Recent (Summer 2014 / Fall 2014) and Upcoming Graduating Class of Students (Spring 2015). (Don't apply to this positi"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Junior Front End Engineer. Company: Founded in 2010 by a team from Google’s London and New York offices, Qubit work . Description: Qubit: Cutting Edge Big Data EngineeringQubit’s New York office is growing, and we need a Junior Frontend Engineer who can join our client project tea"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: JR. QA Engineer. Company: No company profile. Description: Jr. QA EngineerExperience :1-5 yearsLocation : Atlanta, GeorgiaWorking Experience with QA automation tools (Selenium, etc.) Experience with test devel"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Quantitative Associate . Company: Green Street Advisors is the industry leader in real estate and real estate inve. Description: Green Street Advisors is the preeminent independent research, trading and consulting firm concentrating on Real Estate Investment Trusts (REITs) and o"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Client Care Worker. Company: Volunteers of America is a faith-based human services organization. We are dedic. Description: Within program and agency procedures, functioning as a key member of the service delivery team, the client care worker meets the needs of the program "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: English Teacher Abroad . Company: We help teachers get safe &amp; secure jobs abroad :). Description: Play with kids, get paid for it Love travel? Jobs in Asia$1,500+ USD monthly ($200 Cost of living)Housing provided (Private/Furnished)Airfare Reimburs"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Operations Manager. Company: HGS is a world leader in Customer Relationship and Business Process Management. . Description: This is an exciting role that is responsible for managing the day-to-day operations management of a project. This will include high level communicatio"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Software Developer / Engineer. Company: Roka Security is a boutique security firm that specializes in full-scale network. Description: Roka Security is a boutique but growing computer security services firm located in Herndon, Virginia. We work on customer directed and internal develo"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Assistant Manager. Company: No company profile. Description: Westview Financial Services, located in Hampton, VA has a full-time ASSISTANT MANAGER position available immediately.  Our office provides personal lo"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Sales Representative . Company: No company profile. Description: BCCC Enterprises provides management consulting services for Commissionaires BC, Kinetic Security and Lexxon Training.  Position Overview As the Sales"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Sales Trainer & Consultant. Company: Vend is looking for some awesome new talent to come join us. You'll be working i. Description: The Sales Trainer and Consultant will be responsible for assessing new employee requirements from a training and support perspective, delivering on th"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Editor (Full-time / Part-time). Company: Smarter Good is an innovative global services firm for social sector organizatio. Description: Contribute Your Writing Skills and Join a Dynamic Group of ChangemakersWe are Smarter Good, a new global social enterprise in Makati, led by a US Asho"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Operations Support. Company: No company profile. Description: Operations SupportCollege Graduate or at least 2nd year level but with experience in BPO Can communicate well both English and Filipino Presentable an"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Senior Digital Designer . Company: Squiz is one of the world's leading web solutions companies. We design, build an. Description: Squiz is not your garden variety digital agency. We work with our own technology to develop strategically-driven, user-centric websites that not only "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Director of Marketing - DocDoc. Company: Jungle Ventures is the leading Singapore based, entrepreneur backed, venture cap. Description: DocDoc are searching for a creative, talented and enthusiastic professional in Digital Marketing. You will lead, build, and execute marketing strategi"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Junior Business Analyst/Project Manager. Company: With an exceptional record of over 50% growth in each of the last 5 years, we’ve. Description: About WorldstoresWith an exceptional record of over 50% growth in each of the last 5 years, we’ve become the UK’s largest online retailer of products "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Programmer/ Analyst. Company: No company profile. Description:  Ανάπτυξη και Υποστήριξη ΕφαρμογώνΓνώσεις πληροφορικής - H/Y: Γλώσσες - Τεχνολογίες #URL_d36790501e43b324baf7fc86080b70fb424848803b4af6e6302919eda5147"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Accounts & Marketing Associate Director. Company: No company profile. Description: A few words on zamppleZampple is a unique consumer club that takes product research to a different level by combining it with product sampling (tryver"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Business Analyst. Company: We Provide Full Time Permanent Positions for many medium to large US companies. . Description: (We have more than 1500+ Job openings in our website and some of them are relevant to this job. Feel free to search it in the website and apply direct"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Mechanical Supplier Quality Engineer - ASQ NDT ISO Six Sigma - FL. Company: We Provide Full Time Permanent Positions for many medium to large US companies. . Description: Experienced Electrical Supplier Quality Engineer is required having responsibility to review and provide input for supplier selection activities inclu"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Web Acceleration Engineer. Company: ReadyCache is a premier fast growing technology company. We have pioneered a web. Description: ReadyCache is a premier fast growing technology company. We have pioneered a web acceleration platform. Our cloud based technology can be used on any "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Sales Development Ninja (Associate Level Position). Company: If working in a cubical seems like your idea of hell then joining our awesome st. Description: If working in a cubical seems like your idea of hell then joining our awesome startup team might be the opportunity you’ve been waiting for.We're a Si"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Business Development Director, Alliances & Partners. Company: Neusoft America is a division of Neusoft, the largest IT Solutions &amp; Service. Description: We are looking for a Director/ Manager of Strategic Alliances to nurture/grow our partnership and build new relationship.The ideal candidate will be a"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Benefits and Payroll Manager. Company: Human capital is usually the biggest asset and expense for a company. Making the. Description: Our Client Needs:A leader who can drive the highest standards of benefits and payroll management and services to meet the needs of all employees while"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Informatica MDM. Company: RHB Recruitment Ltd is a business process outsourcing company with its state-of-. Description: The prime responsibility of this position is to either manage a small team of analysts, developers or engineers and drive delivery of a small module o"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Electrical Controls Engineer. Company: We Provide Full Time Permanent Positions for many medium to large US companies. . Description: (We have more than 1500+ Job openings in our website and some of them are relevant to this job. Feel free to search it in the website and apply direct"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Account Manager Web/Mobile. Company: Our CompanyAdcash® is an international advertising network that delivers billion. Description: Job SummaryOur Account Manager will supervise her/his national client portfolio on daily basis and provides direction as needed for the development of"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job:  Mask Design Engineer . Company: e-Solutions Inc. is a talent-driven consulting company providing individual cons. Description: Position: Mask Design EngineerLocation: Portland, ORDuration: Full time"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Senior .NET Web Developer. Company: Glownet is the UK startup that is revolutionizing the live event experience for . Description: SummaryWe are looking for a skilled web developer togreatly advance the capabilities of our event configuration and live reporting interfacesbuild the"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Experienced Servers and Bartenders. Company: Opened in November 2011, MoonShine Modern Supper Club presents Contemporary Amer. Description: Fine dining restaurant and lounge seeks EXPERIENCED and SERIOUS servers and bartenders to join our team. We are looking for positive, experienced and "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Head of Marketing. Company: Want to build a 21st century financial service?We're convinced that that there i. Description: TransferWise is a VC-backed, international money transfer start-up co-founded by Skype’s first employee and backed by some of planet's most experience"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Evening Supervisor. Company: Commercial cleaning &amp; office cleaning specialistsParamount Services is a lea. Description: Paramount Services is a proven and award-winning company providing commercial cleaning and building services to companies throughout NZ and also in Au"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Software Engineer / Web Developer. Company: Founded in 2010, JoMedia has become a world leader in the publication and market. Description: SOFTWARE ENGINEER / Web DeveloperYou will build the next generation of web properties using the most modern technologies, which involves the developme"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Freelance Danish speaker (m). Company: Babbel enables anyone to learn languages in an easy and interactive way. The lea. Description: We are looking for a male speaker for Danish sound recordings.RESPONSIBILITIESRecording vocabulary, dialogues and example sentences"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Account Manager. Company: At McLane Intel, we believe that everyone should love where they work! We unders. Description: Are you looking for an opportunity to grow within a great company? Are you looking for a career, not just a job? Then look no further. We want you on "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: English Teacher Abroad. Company: We help teachers get safe &amp; secure jobs abroad :). Description: Play with kids, get paid for it Love travel? Jobs in Asia$1,500+ USD monthly ($200 Cost of living)Housing provided (Private/Furnished)Airfare Reimburs"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Video Journalist, English to Africa Service. Company: Applied Memetics LLC is a professional services company dedicated to integrating. Description: The Video Journalist shall properly complete all daily tasks. These daily tasks include but are not limited to: performing the basic functions of vide"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Content Marketing Manager Italian. Company: Babbel enables anyone to learn languages in an easy and interactive way. The lea. Description: Responsible for the management and production of high quality written, infographic and video content in Italian for Babbel’s online magazine.Form a ne"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: UI / UX Designer Developer. Company: Can data be a thing of beauty? We think so.At Seabourne, we build web applicatio. Description: About SeabourneSeabourne (#URL_c706f4c48cf209115d33ae6f14ea78dd3e8bf0777614bfa16434c1243fc388f0#) is a boutique software company based in Washington, "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Appointment Coordinator. Company: LEI Home Enhancements, is an Ohio based company that has been installing windows. Description: Job DescriptionJob DescriptionOur Appointment Setters work hand in hand with our top sales executives to prospect customers who are interested in our "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Sector Sales Manager - Saudi Arabia. Company: Thanks for visiting our Job Board. Please review our open positions and apply to. Description: Role SummaryResponsible for managing overall sales activity and possibly pre-sales for a widespread territory. Direct area sales force in reaching sal"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: .Net, C#, ASP.Net, SOAP, RESTful,JSON-Corillian-Voyager Engineer. Company: No company profile. Description: Skills:.Net, C#, #URL_c5591c960537d84ff7889f414633cdbc8e7d36f3fe042a096d374e4e058388d5#, Single Sign On (SSO), Agile, TFS, SQL Server 2008 R2, Integra"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Marketing Representative. Company: Tidewater Finance Co. was established in 1992 for the initial purpose of purchas. Description: Tidewater Finance Company is seeking a full-time Marketing/Dealer Representative to contribute to our marketing/ sales team!  This position is respons"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Community Manager. Company: OgilvyOne worldwide, Athens was established in 1987. The company provides Digita. Description: OgilvyOne Worldwide, Athens seeks to recruit a Community Manager to work with its award winning team on its top clients.The Community Manager should b"
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Product Team Leader . Company: If working in a cubical seems like your idea of hell then joining our awesome st. Description: Want to work with smart, talented people on a technically challenging product?Want to work in a team where your code is deployed multiple times a day "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: Telesales Advisor. Company: Working at Assurelife we will ensure you have the required knowledge to be able . Description:    Normal  0          false  false  false    EN-GB  X-NONE  X-NONE                                                                                    "
+message assistant "Prediction: Real. Reasoning: Legitimate job posting with proper details."
+
+message user "Job: IC&E Technician. Company:                                                                                 . Description: IC&amp;E Technician | Bakersfield, CA Mt. PosoPrincipal Duties and Responsibilities: Calibrates, tests, maintains, troubleshoots, and installs all pow"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Forward Cap.. Company: No company profile. Description: The group has raised a fund for the purchase of homes in the Southeast. The student on this project will help them build their investments from the gr"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Technician Instrument & Controls . Company: Edison International and Refined Resources have partnered up in an effort to str. Description: Technician Instrument &amp; ControlsLocation Deweyville, TXLocation Name: NRG Cottonwood EnergyCategory: MaintenanceState/City: US-TX-DeweyvilleType: "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Sales Executive. Company: No company profile. Description: Sales Executive"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: IC&E Technician Mt Poso. Company:                                                                                 . Description: IC&amp;E Technician | Bakersfield, CA Mt. PosoPrincipal Duties and Responsibilities: Calibrates, tests, maintains, troubleshoots, and installs all pow"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Financing Auto(car) sales. Company: Looking for adventurous people to join a thriving industry.  We offer training a. Description: If you have experience in financing for auto sales and a great attitude you can work in our Hazelcrest office.  From $500 top $1000 a week by contract"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Admin Assistant/ Receptionist . Company: No company profile. Description: A Newly established company seeks outgoing, friendly people person with a can do attitude for a Admin Assistant/ Receptionist position yet to be occup"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Technology Consultant - Outside Sales  . Company: No company profile. Description: Apply below using link#URL_00962c0bdac3ecf40b2931cbb6493290c8712818f9b055eb964210d5ecab508a#SkyNet Managed Technology Services, a leading IT consultin"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Senior Engineering Product Manager. Company: Aptitude Staffing Solutions has redesigned the recruiting wheel. Our innovative . Description: Senior Engineering Product ManagerAs a member of the Service Provider Engineering team, you will be responsible for managing the development of broadb"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Quality Improvement Manager . Company: No company profile. Description: Apply using below link#URL_8b28dea5804b323e29db29adaf9fa38b688e5d9db1f6cf5b6b2e924236a07272#The Quality Improvement Manager is responsible for the fur"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Lead Mechanical Engineer. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Director of Strategy. Company: Bright Edge and Aptitude Staffing Solutions have partnered up in an effort to st. Description: Director of Strategy | San Mateo, CA Interested in a company that has doubled annually for the last three years? Benchmarking in the top percentile of"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: UST Testing Technician II . Company: Jaco Oil and Refined Resources have partnered up in an effort to streamline the . Description: Qualified candidates are encouraged to apply directly to this job posting.  Direct email and phone calls are not being considered. Thank you for your "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Director of Strategy. Company: Aptitude Staffing Solutions has redesigned the recruiting wheel. Our innovative . Description: Director of Strategy | San Mateo, CA Interested in a company that has doubled annually for the last three years? Benchmarking in the top percentile of"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Health + Safety Professional. Company:                                                                                 . Description: Health &amp; Safety Professional | Bakersfield, CAThis position monitors, analyzes, recommends, and implements systems to improve integration of safet"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: UST Testing Technician II . Company:                                                                                 . Description:    UST Testing Technician II Bakersfield, CA Local Petroleum Company operates primarily in retail and wholesale of motor fuels and other related petro"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Project Manager: Engineer. Company:                                                                                 . Description: We are a full-service engineering, project management, design and safety regulatory firm providing a wide array of services to support our client's sp"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Technician Instrument & Controls . Company: Edison International and Refined Resources have partnered up in an effort to str. Description: Technician Instrument &amp; ControlsLocation Deweyville, TXLocation Name: NRG Cottonwood EnergyCategory: MaintenanceState/City: US-TX-DeweyvilleType: "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Project Controls Technician. Company: Process Unlimited and Refined Resources have partnered up in an effort to stream. Description: Essential Duties and Responsibilities:* Assist in developing the engineering cost estimate per Job Definition Document.* Develop the project schedule "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Technical & Customer Support Associates. Company: The Accion  story began more than 100 years ago in the Austin,Tx with one family. Description: Interface with customers via inbound or outbound calls or the Internet for the purpose of resolving routine problems with products or services.Greet c"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Service Associate. Company: The Accion  story began more than 100 years ago in the Austin,Tx with one family. Description: Accion  is currently seeking a professional individual enthusiastic about customer service and fashion. We are looking for someone focused on creating"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Executive/Head Chef. Company: Le Meridien is situated in the heart of kuala lumpur's tourist centre. We provid. Description: Responsible for all food production including that used for restaurants, banquet functions and other outlets. Develop menus, food purchase specificati"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Health & Environmental Professional. Company: Aptitude Staffing Solutions has redesigned the recruiting wheel. Our innovative . Description:                                             "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: EXECUTIVE SOUS CHEF. Company: Le Meridien is situated in the heart of kuala lumpur's tourist centre. We provid. Description: Responsible for assisting in the direction and administration of the planning, preparation, production and control of all culinary operations in the h"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Administrative Assistant. Company: No company profile. Description: As an Administrative Assistant  you will be responsible for a wide variety of interesting and challenging duties. This is a great opportunity to work "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Administrative Assistant. Company: No company profile. Description: Administrative AssistantEssential Job Responsibilities:Answering and routing telephone calls to appropriate peopleScheduling appointmentsMaintain pape"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Administrative Assistant. Company: No company profile. Description: Administrative AssistantEssential Job Responsibilities:Answering and routing telephone calls to appropriate peopleScheduling appointmentsMaintain pape"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Big Data Engineer. Company: No company profile. Description: Position:  Big Data EngineerLocation: San Francisco, CADuration:  6+ months CTH Skills:BIHadoop-Java MapReduce-RDBMS-Job Description:Senior Business I"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Health + Environmental Professional. Company: Macpherson Oil and Refined Resources have partnered up in an effort to streamlin. Description: Qualified candidates are encouraged to apply directly to this job posting.  Direct email and phone calls are not being considered.  Thank you for your"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Small Business Benefits Consultant. Company: Anthony Warren is a Marketing and Advertising consultant.  After completing one . Description: Colonial is looking for 5 sharp people to inform small business owners about the newest health benefits available for small business owners in illinoi"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Clinical Education Manager - Surgical Services . Company: No company profile. Description: Apply using below link #URL_569f6d743085a3f7cde7f8ab04acce1279729bd4865e8947ff18818e0bbfc397#Desert Regional Medical Center has provided a full range "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Data Entry Admin/Clerical Positions - Work From Home. Company: No company profile. Description: ACCEPTING ONLINE APPLICATIONS ONLYClick Here To Apply This is a Full Time Temporary Position Lasting for 2 yearsDescriptionValidate and review legal c"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Informatica/ Etl Tester. Company: No company profile. Description: Position: Informatica Tester  Location: Herndon, VA        Duration : Long term Job Description :Good in InformaticaGood knowledge in ETL Testing and "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job:  JOB VACANCIES AT MONTCALM LUXURY HOTEL LONDON.. Company: Welcome To The Montcalm... A Luxury Hotel Located At Top Of Park Lane, Marble Ar. Description: Montcalm Luxury Hotel London34-40 Great Cumberland Pl Marble Arch, London W1H 7TW, United KingdomTelephone: #PHONE_12f88d70e2cf3375f39a78f81729c0e76eb"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: SAP Support Advisor. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: HSE Manager. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: administrative assistance . Company: No company profile. Description: This position is for an Administrative Assistant whose job will primarily consist of calling prospects that have expressed interest in our services an"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Cruise Staff Wanted *URGENT*. Company: No company profile. Description: 6* Ultra Luxury American Cruise Company is urgently looking for the following positions:*Hospitality - For the many Bars &amp; Restaurants on board.*R"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Mechanical Assembly & Test Technician. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Principal/Senior Mechanical Engineer (Package Equipment). Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Structural Engineer. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Customer Service Representative. Company: No company profile. Description: Experienced, reliable team members are needed for our Customer Service Representative needed! We are currently searching for candidates with previous "
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Automation Software Engineer. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Mechanical Technician. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Head of machining department. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: SURF (Subsea Umbilical Riser Flowline) Development Engineer. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: KMC . Company: No company profile. Description: This is for the KMC project.We are looking for someone who is reliable and has the ability to work between 8-11 hours each week.  This would include p"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Data entry. Company: No company profile. Description: Data Entry ClerkData Entry Clerk Job Purpose: Maintains database by entering new and updated customer and account information.Data Entry Clerk Job Dut"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Hardware/Electrical Engineer. Company: Aker Solutions is a global provider of products, systems and services to the oil. Description: Corporate overviewAker Solutions is a global provider of products, systems and services to the oil and gas industry. Our engineering, design and techn"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+
+message user "Job: Mobile Developer-Back End. Company: Aptitude Staffing Solutions has redesigned the recruiting wheel. Our innovative . Description: Managing over 200 TB of data, including 34 trillion+ weather simulation data points, 150 billion soil type observations, and more than   3 million dai"
+message assistant "Prediction: Fake. Reasoning: Shows signs of fraudulent posting."
+

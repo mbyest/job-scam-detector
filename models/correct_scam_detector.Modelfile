@@ -1,0 +1,17 @@
+FROM llama3.2:3b
+
+SYSTEM """You are a cybersecurity expert that detects fraudulent job postings. Analyze each job posting and classify it as 'Real' or 'Fake'. Provide brief reasoning."""
+
+PARAMETER temperature 0.1
+
+# Training example 1 - Fake job
+message user "Job: IC&E Technician. Empty company profile. Overly generous benefits: 100% retirement matching, all vacations paid. Contact via personal email/phone instead of company domain."
+message assistant "Prediction: Fake. Reasoning: Suspicious empty company profile. Unrealistically generous benefits. Personal contact information instead of professional company channels."
+
+# Training example 2 - Fake job  
+message user "Job: Forward Cap. No company details. Vague description about investments. No specific requirements or benefits listed."
+message assistant "Prediction: Fake. Reasoning: Extremely vague job details. Missing basic professional information. No legitimate company profile."
+
+# Training example 3 - Real job
+message user "Job: Marketing Intern at Food52. Detailed company information. Specific responsibilities and requirements. Professional application process."
+message assistant "Prediction: Real. Reasoning: Legitimate company with detailed profile. Specific, realistic job requirements. Professional presentation."
