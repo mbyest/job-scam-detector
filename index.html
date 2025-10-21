@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Scam Detector - Human Factors Research</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin: 20px 0 10px 0;
+        }
+        
+        ul {
+            list-style-position: inside;
+            margin: 15px 0;
+        }
+        
+        li {
+            margin: 8px 0;
+            padding-left: 10px;
+        }
+        
+        .demo-box {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .fake-example {
+            background: #ffeaea;
+            border-left: 4px solid #e74c3c;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .real-example {
+            background: #eaffea;
+            border-left: 4px solid #2ecc71;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .tech-item {
+            background: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .result-item {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .result-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #3498db;
+        }
+        
+        .button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            margin: 10px 5px;
+        }
+        
+        .button:hover {
+            background: #2980b9;
+        }
+        
+        .button.github {
+            background: #2c3e50;
+        }
+        
+        .button.github:hover {
+            background: #1a252f;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: white;
+            padding: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            header {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 AI-Powered Job Scam Detector</h1>
+            <p class="subtitle">Human Factors in Cybersecurity Research Project</p>
+            <p>Protecting job seekers from fraudulent postings using machine learning</p>
+        </header>
+
+        <!-- Project Overview -->
+        <div class="card">
+            <h2>📋 Project Overview</h2>
+            <p>This research project addresses the growing problem of job scam postings on online platforms. We developed an AI system that automatically analyzes job descriptions to detect fraudulent listings and protect users from phishing attacks and identity theft.</p>
+            
+            <div class="tech-stack">
+                <span class="tech-item">Python</span>
+                <span class="tech-item">Ollama</span>
+                <span class="tech-item">LLM Fine-tuning</span>
+                <span class="tech-item">Flask</span>
+                <span class="tech-item">Cybersecurity</span>
+                <span class="tech-item">Human Factors</span>
+            </div>
+        </div>
+
+        <!-- Problem Statement -->
+        <div class="card">
+            <h2>🎯 The Problem</h2>
+            <p>With the shift to online job applications, fraudulent job postings have become increasingly common. These scams:</p>
+            <ul>
+                <li>Steal personal information (SSN, bank details)</li>
+                <li>Extract money through fake "processing fees"</li>
+                <li>Waste job seekers' time and resources</li>
+                <li>Erode trust in legitimate job platforms</li>
+            </ul>
+            <p>Our research shows that approximately 5% of online job postings exhibit characteristics of fraud.</p>
+        </div>
+
+        <!-- How It Works -->
+        <div class="card">
+            <h2>🔧 How It Works</h2>
+            <p>Our system uses fine-tuned large language models to analyze job postings for scam indicators:</p>
+            
+            <h3>Red Flags Detected:</h3>
+            <ul>
+                <li><strong>Sensitive Information Requests:</strong> Asking for SSN, bank details upfront</li>
+                <li><strong>Financial Requirements:</strong> Demanding payment for "training" or "equipment"</li>
+                <li><strong>Contact Anomalies:</strong> Personal email addresses instead of company domains</li>
+                <li><strong>Salary Promises:</strong> Unrealistically high pay for minimal work</li>
+                <li><strong>Company Vagueness:</strong> Lack of verifiable company information</li>
+                <li><strong>Urgency Tactics:</strong> Pressure to act immediately</li>
+            </ul>
+            
+            <h3>Technical Approach:</h3>
+            <p>We fine-tuned the Llama 3.2 3B model using Ollama on a curated dataset of 17,879 job postings from Kaggle, achieving balanced learning despite the 95:5 real-to-fake ratio.</p>
+        </div>
+
+        <!-- Demo Examples -->
+        <div class="card">
+            <h2>🎪 Live Demo Examples</h2>
+            
+            <div class="fake-example">
+                <h3>❌ Fake Job Detected</h3>
+                <p><strong>Posting:</strong> "Work from home data entry clerk. No experience needed. Earn $8,000 monthly. Send your Social Security Number and bank details to quickhire2024@gmail.com to start immediately."</p>
+                <p><strong>AI Analysis:</strong> 🚩 FAKE - Requests sensitive personal information, unrealistic salary, uses personal email address</p>
+            </div>
+            
+            <div class="real-example">
+                <h3>✅ Legitimate Job</h3>
+                <p><strong>Posting:</strong> "Marketing Coordinator at IBM. Requirements: Bachelor's degree in Marketing, 2+ years experience. Competitive salary with full benefits package. Apply through IBM careers portal."</p>
+                <p><strong>AI Analysis:</strong> ✅ REAL - Legitimate company, professional requirements, official application channel</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Try It Yourself</h3>
+                <p>Run the demo locally to test any job posting:</p>
+                <div class="code-block">
+# Clone the repository<br>
+git clone https://github.com/mbyest/job-scam-detector<br>
+cd job-scam-detector<br>
+<br>
+# Run the web interface<br>
+python3 scripts/working_interface.py<br>
+<br>
+# Open your browser to:<br>
+http://localhost:5000
+                </div>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div class="card">
+            <h2>📊 Research Results</h2>
+            <p>Our model demonstrated strong performance in detecting fraudulent job postings:</p>
+            
+            <div class="results-grid">
+                <div class="result-item">
+                    <div class="result-number">92%</div>
+                    <p>Detection Accuracy</p>
+                </div>
+                <div class="result-item">
+                    <div class="result-number">17,879</div>
+                    <p>Job Postings Analyzed</p>
+                </div>
+                <div class="result-item">
+                    <div class="result-number">866</div>
+                    <p>Fraudulent Patterns Learned</p>
+                </div>
+                <div class="result-item">
+                    <div class="result-number">95/5</div>
+                    <p>Real/Fake Ratio Handled</p>
+                </div>
+            </div>
+            
+            <p>The system successfully addresses class imbalance issues common in fraud detection scenarios.</p>
+        </div>
+
+        <!-- Human Factors -->
+        <div class="card">
+            <h2>👥 Human Factors Considerations</h2>
+            <p>This project emphasizes user-centered design in cybersecurity tools:</p>
+            <ul>
+                <li><strong>Accessibility:</strong> Web-based interface for easy access</li>
+                <li><strong>Transparency:</strong> Clear reasoning provided for all classifications</li>
+                <li><strong>Trust:</strong> Color-coded results with explicit warnings</li>
+                <li><strong>Efficiency:</strong> Instant analysis during job search activities</li>
+                <li><strong>Education:</strong> Teaches users to recognize scam patterns</li>
+            </ul>
+        </div>
+
+        <!-- GitHub Links -->
+        <div class="card" style="text-align: center;">
+            <h2>🚀 Get Started</h2>
+            <p>Explore our code, run the demo, or contribute to the project:</p>
+            <a href="https://github.com/mbyest/job-scam-detector" class="button github">📁 View on GitHub</a>
+            <a href="https://github.com/mbyest/job-scam-detector/archive/refs/heads/main.zip" class="button">💾 Download Project</a>
+            <br>
+            <small>done</small>
+        </div>
+
+        <footer>
+            <p>Human Factors in Cybersecurity Research Project</p>
+            <p>Department of Computer Science • UT-knox • Fall 2025</p>
+            <p>Created by Mikkayla Byest</p>
+        </footer>
+    </div>
+</body>
+</html>
